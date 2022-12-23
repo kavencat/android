@@ -88,6 +88,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
@@ -164,4 +166,13 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  
+  <project path="device/xiaomi/wayne" name="kavencat/android_device_xiaomi_wayne-4.19" revision="lineage-20.0" />
+  <project path="kernel/xiaomi/wayne" name="kavencat/android_kernel_xiaomi_wayne-4.19" revision="lineage-20.0" />
+  <project path="vendor/xiaomi/wayne" name="kavencat/android_vendor_xiaomi_wayne-4.19" revision="lineage-20" />
+	
+  <project path="hardware/qcom-caf/sdm660/audio" name="Miku-UI/platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="TDA" />
+  <project path="hardware/qcom-caf/sdm660/display" name="Miku-UI/platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" revision="TDA" />
+  <project path="hardware/qcom-caf/sdm660/media" name="Miku-UI/platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" revision="TDA" />
+  <!--project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="Miku-UI/platform_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="snowland" /-->
 </manifest>
