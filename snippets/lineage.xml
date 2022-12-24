@@ -167,10 +167,11 @@
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
   
-  <project path="device/xiaomi/wayne" name="kavencat/android_device_xiaomi_wayne-4.19" revision="lineage-20.0" />
+  <project path="device/xiaomi/wayne" name="xiaolegun/device_xiaomi_wayne-4.19" revision="test>
   <project path="kernel/xiaomi/wayne" name="kavencat/android_kernel_xiaomi_wayne-4.19" revision="lineage-20.0" />
   <project path="vendor/xiaomi/wayne" name="kavencat/android_vendor_xiaomi_wayne-4.19" revision="lineage-20" />
-	
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
+  
   <project path="hardware/qcom-caf/sdm660/audio" name="Miku-UI/platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="TDA" />
   <project path="hardware/qcom-caf/sdm660/display" name="Miku-UI/platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" revision="TDA" />
   <project path="hardware/qcom-caf/sdm660/media" name="Miku-UI/platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" revision="TDA" />
