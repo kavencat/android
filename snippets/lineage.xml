@@ -167,7 +167,7 @@
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
   
-  <project path="device/xiaomi/wayne" name="kavencat/android_device_xiaomi_wayne-4.19" revision="lineage-20.0" />
+  <project path="device/xiaomi/wayne" name="xiaolegun/android_device_xiaomi_wayne-4.19" revision="test" />
   <project path="kernel/xiaomi/wayne" name="kavencat/android_kernel_xiaomi_wayne-4.19" revision="lineage-20.0" />
   <project path="vendor/xiaomi/wayne" name="kavencat/android_vendor_xiaomi_wayne-4.19" revision="lineage-20" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-20" />
